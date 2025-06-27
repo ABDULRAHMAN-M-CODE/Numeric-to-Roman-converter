@@ -2,8 +2,8 @@ const input=document.getElementById("number")
 const convert=document.getElementById("convert-btn")
 
 const output =document.getElementById("output")
-onst from=document.getElementById("")
-c.addEventListener("submit",(e)=>{e.preventDefault()})
+const from=document.getElementById("form")
+form.addEventListener("submit",(e)=>{e.preventDefault()})
 let remainder;
 const lookup_table=[
 {"Roman":"I",
