@@ -3,7 +3,7 @@ const convert=document.getElementById("convert-btn")
 
 const output =document.getElementById("output")
 const from=document.getElementById("form")
-form.addEventListener("submit",(e)=>{e.preventDefault()})
+
 let remainder;
 const lookup_table=[
 {"Roman":"I",
@@ -185,6 +185,7 @@ input.addEventListener("keydown", (e) => {
     
   }
 });
+form.addEventListener("submit",(e)=>{e.preventDefault()})
 
 //this is just like ISR in embedded assembly firmware
 convert.addEventListener("click", () => {
